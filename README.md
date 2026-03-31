@@ -50,7 +50,7 @@ To view the portfolio locally:
    ```bash
    git clone [https://github.com/vanshikaverma7202-ux/Digital-Art-portfolio-.git](https://github.com/vanshikaverma7202-ux/Digital-Art-portfolio-.git)
 
-   ## 📬 Connect with Me
-* **Instragram art account:** [@familia_creation]
-* 
+ ## 📬 Connect with Me
+ **Instragram art account:** [@familia_creation]
+
    
