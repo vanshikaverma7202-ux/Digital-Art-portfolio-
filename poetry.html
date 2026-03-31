@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry | The Ink Flow</title>
+    <style>
+        :root {
+            --bg-deep-navy: #0d1526; 
+            --neon-blue-glow: #6cb6ff;
+            --text-secondary: #5a6b84;
+            --card-bg: rgba(255, 255, 255, 0.03);
+        }
+
+        body {
+            background-color: var(--bg-deep-navy);
+            color: #ffffff;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        nav {
+            width: 100%;
+            padding: 40px 0;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--neon-blue-glow);
+            text-shadow: 0 0 10px var(--neon-blue-glow);
+        }
+
+        /* The Neon Glow Title */
+        .main-title {
+            font-size: 3.5rem;
+            margin-top: 20px;
+            text-align: center;
+            color: var(--neon-blue-glow);
+            font-weight: bold;
+            text-shadow: 0 0 15px rgba(108, 182, 255, 0.8),
+                         0 0 30px rgba(108, 182, 255, 0.4);
+            line-height: 1.1;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-style: italic;
+            margin-bottom: 60px;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            padding-bottom: 100px;
+        }
+
+        /* Glowing Poetry Cards */
+        .poetry-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(108, 182, 255, 0.1);
+            border-radius: 20px;
+            padding: 45px 35px;
+            transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+            text-align: center;
+        }
+
+        .poetry-card:hover {
+            transform: translateY(-10px);
+            border: 1px solid var(--neon-blue-glow);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), 
+                        0 0 20px rgba(108, 182, 255, 0.2);
+            background: rgba(108, 182, 255, 0.05);
+        }
+
+        .poem-name {
+            font-size: 1.3rem;
+            color: var(--neon-blue-glow);
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-weight: 400;
+        }
+
+        .poem-text {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            line-height: 1.9;
+            font-size: 1.15rem;
+            color: #e0e6ed;
+            white-space: pre-line;
+        }
+
+        footer {
+            margin: 50px 0;
+            opacity: 0.5;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="poetry.html" style="color: var(--neon-blue-glow);">POETRY</a>
+    </nav>
+
+    <h1 class="main-title">Velna's<br>Poetry</h1>
+    <p class="subtitle">A digital sanctuary of words</p>
+
+    <div class="container">
+
+        <div class="poetry-card">
+            <div class="poem-name">Beauty of a Heart</div>
+            <div class="poem-text">
+                Root yourself in kindness deep,
+                And let your inner beauty bloom;
+                For while the physical fades to sleep,
+                A pure heart lights the darkest room.
+                Trust the path and stay sincere,
+                In grace, your truest worth is found;
+                Like winter snow, both soft and clear,
+                Where peace and beatitude abound.
+            </div>
+        </div>
+
+        <div class="poetry-card">
+            <div class="poem-name">Chasing the Moon</div>
+            <div class="poem-text">
+                Pursuing the moon, where secrets reside,
+                She teaches us lessons the daylight might hide.
+                Though scarred and imperfect, her elegance glows,
+                A luminous beauty that everyone knows.
+                She dwells in the darkness to guide us through night,
+                Inspiring the world with her borrowed white light.
+                Not always full, but forever she’s true—
+                Be the moon in a sky full of stars for someone new.
+            </div>
+        </div>
+
+        <div class="poetry-card">
+            <div class="poem-name">Midnight</div>
+            <div class="poem-text">
+                Some nights are meant for reflection,
+                In the quiet of lonely hours;
+                But darkness cannot drive out the dark,
+                Only light has the healing power.
+                Though dusk may feel cold and lonely,
+                And Luna stands solo in flight,
+                Few know the secret of shadows:
+                How beautiful the dark is at night.
+                A sky full of stars and a whisper,
+                Can mend every wound with their grace;
+                For there’s magic hidden in midnight,
+                That the sun could never replace.
+            </div>
+        </div>
+
+        <div class="poetry-card">
+            <div class="poem-name">Sunset’s Grace</div>
+            <div class="poem-text">
+                In this view, the sunset brings
+                Proof of the beauty ending brings.
+                Whatever blooms for us to see,
+                One day will fade with history.
+                This final truth will always be:
+                All that begins must cease to be.
+            </div>
+        </div>
+
+        <div class="poetry-card">
+            <div class="poem-name">The Shooting Star</div>
+            <div class="poem-text">
+                Lost in its light, I forgot my wish,
+                Entranced by a trail of stardust bliss.
+                A bewitching glow that sparks a fire,
+                Connecting the heart to hope and desire.
+                In the deep of night, let the lesson be:
+                To wish for self-love, and set yourself free.
+            </div>
+        </div>
+
+    </div>
+
+    <footer>&copy; 2026 VELNA VANSHI | VISIONARY ARTIST</footer>
+
+</body>
+</html>
