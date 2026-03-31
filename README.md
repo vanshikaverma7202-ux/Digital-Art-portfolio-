@@ -41,7 +41,7 @@ As a **BCA student**, I built this gallery to bridge the gap between structured 
 </div>
 
 ## 🚀 Installation & Local Setup
-1. Clone the repository: `git clone https://github.com/Vanshika/Ink-Flow-Gallery.git`
+1. Clone the repository: https://vanshikaverma7202-ux.github.io/Digital-Art-portfolio-/
 2. Open `index.html` in your favorite browser.
 3. Explore the flow.
 
