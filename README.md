@@ -3,51 +3,54 @@
 # 🖋️ The Ink Flow Gallery
 ### *Where BCA Technicality meets Creative Expression*
 
-[![GitHub Stars](https://img.shields.io/github/stars/Vanshika/Ink-Flow-Gallery?style=for-the-badge&color=60a5fa)](https://github.com/Vanshika/Ink-Flow-Gallery)
-[![Portfolio Live](https://img.shields.io/badge/Live-View_Gallery-60a5fa?style=for-the-badge&logo=googlechrome&logoColor=white)](YOUR_GITHUB_PAGES_LINK_HERE)
+[![GitHub Stars](https://img.shields.io/github/stars/vanshikaverma7202-ux/Digital-Art-portfolio-?style=for-the-badge&color=800020)](https://github.com/vanshikaverma7202-ux/Digital-Art-portfolio-/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-<br />
-
-"A curated journey through 36 original works, blending the precision of ballpoint ink with the fluidity of digital design."
-
-
-</div>
+[**✨ View Live Site**](https://vanshikaverma7202-ux.github.io/Digital-Art-portfolio-/)
 
 ---
 
-## 🌌 The Vision
-As a **BCA student**, I built this gallery to bridge the gap between structured code and surrealist art. This project isn't just a portfolio; it's a technical exploration of how **Glassmorphism** and **Responsive Grid Systems** can enhance the way we experience traditional art online.
+**A digital sanctuary showcasing a fusion of code and canvas.** This project serves as my professional digital portfolio, hosting a curated collection of surrealist sketches, ballpoint pen art, and original poetry.
 
-## 🛠️ Technical Masterpiece
-| Feature | Technology | Description |
-| :--- | :--- | :--- |
-| **Layout** | CSS Grid / Flexbox | Responsive architecture for 36+ artworks. |
-| **Glassmorphism** | CSS Backdrop-filter | Frosted glass cards for a premium, modern feel. |
-| **Interaction** | JS Filter Engine | Real-time sorting by Ballpoint, Surrealist, or Acrylic. |
-| **Viewing** | Custom Lightbox | Dynamic modal to view ink-strokes in high detail. |
+[Explore the Gallery](#-gallery-preview) • [Technical Stack](#-tech-stack) • [Artistic Vision](#-about-the-artist)
 
-## 🎨 Featured Mediums
-> "Ink is more than a medium; it's a flow of thoughts captured on paper."
-
-* **30+ Ballpoint Sketches:** Exploring high-contrast shading and fine-line anatomy.
-* **Surrealist Hybrids:** Merging nature and imagination into singular narratives.
-* **Original Poetry:** Verse-cards styled with elegant typography to match the visual art.
-
-## 📸 Gallery Sneak Peek
-<div align="center">
-  <img src="images/top1.jpg" width="30%" />
-  <img src="images/top2.jpg" width="30%" />
-  <img src="images/top3.jpg" width="30%" />
 </div>
 
-## 🚀 Installation & Local Setup
-1. Clone the repository: https://vanshikaverma7202-ux.github.io/Digital-Art-portfolio-/
-2. Open `index.html` in your favorite browser.
-3. Explore the flow.
+## 🎨 Project Overview
+The **Ink Flow Gallery** is more than just a website; it is an experiment in front-end development designed to present traditional art in a modern, responsive digital environment. 
 
----
+* **Total Artworks:** 36 Original Pieces
+* **Mediums:** Ballpoint Pen, Surrealist Sketching, Acrylics
+* **Bonus Content:** Original Poetry Collection
+
+## 🛠️ Tech Stack
+To build this bridge between art and technology, I utilized:
+
+* **Frontend:** HTML5, CSS3 (Custom Grid Layouts)
+* **Interactivity:** JavaScript for gallery filtering and lightboxes
+* **Version Control:** Git & GitHub
+
+## ✨ Gallery Preview
+> *"Every stroke of the pen is a line of code in the story of my imagination."*
+
+> ## 📸 Gallery Sneak Peek
 <div align="center">
-Developed with ❤️ by <b>Vanshika Verma</b>
-<br />
-<i>2nd Semester BCA | Surrealist Artist</i>
+  <img src="top1.jpg" width="30%" />
+  <img src="top2.jpg" width="30%" />
+  <img src="top3.jpg" width="30%" />
 </div>
+
+* **Surrealism:** Exploring the subconscious through detailed sketching.
+* **The Ink Series:** Mastery of the ballpoint pen as a high-detail medium.
+* **Verses:** A dedicated section for written word and emotional expression.
+
+## 🚀 Getting Started
+To view the portfolio locally:
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/vanshikaverma7202-ux/Digital-Art-portfolio-.git](https://github.com/vanshikaverma7202-ux/Digital-Art-portfolio-.git)
+
+   ## 📬 Connect with Me
+* **Instragram art account:** [@familia_creation]
+* 
+   
