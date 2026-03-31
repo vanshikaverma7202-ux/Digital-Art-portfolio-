@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanshika's Gallery | Art Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="poetry.html">Poetry</a></li>
+        </ul>
+    </nav>
+
+    <header class="gallery-header">
+        <h1>Featured Artworks</h1>
+        <p>A fusion of BCA technicality and Creative Expression</p>
+    </header>
+
+    <section class="gallery-container">
+
+        <div class="art-entry">
+            <div class="art-card">
+    <div class="art-details">
+                <img src="images/top1.jpg" alt="Blue Wolf and Octopus">
+                <div class="art-details">
+                    <h3>Internal Turmoil: The Blue Bind</h3>
+                    <p><strong>Date:</strong> 13 Mar 2026</p>
+                    <p><strong>Technique:</strong> Acrylics & Line Work</p>
+                    <p><strong>Time:</strong> 14 Hours</p>
+                </div>
+            </div>
+            <div class="narrative">
+                <p>"The white wolf howls in silence, wrapped in the deep blue bind. Each tentacle a tangled thought, within the complex mind."</p>
+            </div>
+        </div>
+
+        <div class="art-entry">
+            <div class="art-card">
+                <img src="images/top2.jpg" alt="Saree Portrait">
+                <div class="art-details">
+                    <h3>The Grace of Silence</h3>
+                    <p><strong>Date:</strong> 28 Jul 2025</p>
+                    <p><strong>Technique:</strong> Soft Shading & Acrylic Glow</p>
+                    <p><strong>Time:</strong> 16 Hours</p>
+                </div>
+            </div>
+            <div class="narrative">
+                <p>"In the golden pool of light, she stands, butterflies dancing in her hands. A heritage of beauty, old and deep."</p>
+            </div>
+        </div>
+
+        <div class="art-entry">
+            <div class="art-card">
+                <img src="images/top3.jpg" alt="Surreal Crane">
+                <div class="art-details">
+                    <h3>Duality of the Heron</h3>
+                    <p><strong>Date:</strong> 
+                   4 Oct 2025</p>
+                    <p><strong>Technique:</strong> Bold Inking & Acrylic Wash</p>
+                    <p><strong>Time:</strong> 10 Hours</p>
+                </div>
+            </div>
+            <div class="narrative">
+                <p>"One side is sharp, the other flows, a nature that only the night-bird knows. Standing on the eternal brink."</p>
+            </div>
+        </div>
+
+        <div class="art-entry">
+            <div class="art-card">
+                <img src="images/top4.jpg" alt="Red Pencil Portrait">
+                <div class="art-details">
+                    <h3>The Ruby Stare</h3>
+                    <p><strong>Date:</strong>  26 Dec 2025</p>
+                    <p><strong>Technique:</strong> Monochromatic Red Pencil</p>
+                    <p><strong>Time:</strong> 8 Hours</p>
+                </div>
+            </div>
+            <div class="narrative">
+                <p>"A sketch in scarlet, bold and free, her gaze reflects what I cannot see. Simple lines create the view."</p>
+            </div>
+        </div>
+
+        <div class="art-entry">
+            <div class="art-card">
+                <img src="images/top5.jpg" alt="Marilyn Monroe Graphite">
+                <div class="art-details">
+                    <h3>Graphite Icon: Norma Jeane</h3>
+                    <p><strong>Date:</strong> 24 Dec 2025</p>
+                    <p><strong>Technique:</strong> High-Realism Graphite Shading</p>
+                    <p><strong>Time:</strong> 18 Hours</p>
+                </div>
+            </div>
+            <div class="narrative">
+                <p>"The smile is soft, the gaze is deep, a timeless secret it must keep. The clearest image I have seen."</p>
+            </div>
+        </div>
+
+        <div class="art-entry">
+            <div class="art-card">
+                <img src="images/top6.jpg" alt="Floral Skull">
+                <div class="art-details">
+                    <h3>The Silent Forest (Floral Skull)</h3>
+                    <p><strong>Date:</strong> 1 Jun 2024</p>
+                    <p><strong>Technique:</strong> Sketching and Shading</p>
+                    <p><strong>Time:</strong> 12 Hours</p>
+                </div>
+            </div>
+            <div class="narrative">
+                <p>"Behind the petals of a gentle gaze, lies the skeletal truth of a soul unmasked."</p>
+            </div>
+        </div> 
+    </section>
+    
+    
+<h1 class="glow-title">The Ink Flow Gallery</h1>
+<p class="section-subtitle">A curated collection of 30 surrealist and ballpoint works.</p>
+
+  <div id="art-grid" class="gallery-grid"></div>
+
+<script>
+window.onload = function() {
+    const grid = document.getElementById('art-grid');
+    if (grid) {
+        for (let i = 1; i <= 30; i++) {
+            const item = document.createElement('div');
+            item.className = 'art-item';
+            
+            // This pulls your images named artwork1.jpg, artwork2.jpg etc.
+            item.innerHTML = `
+                <img src="images/artwork${i}.jpg" alt="Ballpoint Artwork ${i}" loading="lazy">
+                <div class="art-overlay"></div>
+            `;
+            grid.appendChild(item);
+        }
+    }
+}
+</script>
+
+<nav class="navbar">
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+    </div>
+</nav>
+
+
+<button id="backToTop" title="Go to top">↑</button>
+
+<div id="lightbox" class="lightbox">
+    <span class="close-btn">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div id="caption"></div>
+</div>
+
+<script>
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+const closeBtn = document.querySelector('.close-btn');
+
+// Attach click event to all art cards
+document.querySelectorAll('.art-card img').forEach(image => {
+    image.onclick = () => {
+        lightbox.style.display = 'flex';
+        lightbox.classList.add('active');
+        lightboxImg.src = image.src; // Set the popup image to the clicked one
+    };
+});
+
+// Close when clicking the 'X'
+closeBtn.onclick = () => {
+    lightbox.style.display = 'none';
+    lightbox.classList.remove('active');
+};
+
+// Close when clicking anywhere outside the image
+lightbox.onclick = (e) => {
+    if (e.target !== lightboxImg) {
+        lightbox.style.display = 'none';
+    }
+}
+</script>
